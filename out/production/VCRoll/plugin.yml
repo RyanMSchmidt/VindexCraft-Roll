@@ -1,0 +1,7 @@
+name: VCRoll
+author: _Echoplayz__
+version: 1
+main: com.ryanschmidt.vcroll.VCRoll
+
+commands:
+  roll:
