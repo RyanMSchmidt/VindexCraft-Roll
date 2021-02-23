@@ -1,6 +1,6 @@
-name: VCRoll
+name: VindexCraft-Roll
 author: _Echoplayz__
-version: 1
+version: 2
 main: com.ryanschmidt.vcroll.VCRoll
 
 commands:

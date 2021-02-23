@@ -15,7 +15,7 @@ public class VCRoll extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getLogger().info("VindexCraft roll plugin - Created by _Echoplayz__");
+        this.getLogger().info("VindexCraft Roll - Created by _Echoplayz__");
     }
 
     @Override
@@ -34,10 +34,10 @@ public class VCRoll extends JavaPlugin {
                 for(int x = 0; x < nearByEntities.size(); ++x) {
                     if (nearByEntities.get(x) instanceof Player) {
                         Player otherplayer = (Player)nearByEntities.get(x);
-                        otherplayer.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aVindex&2Craft &7Roll&8] &2" +player.getPlayer().getDisplayName() + " &arolled a " + rolledNumber));
+                        otherplayer.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&2Vindex&aCraft &7Roll&8] &2" +player.getPlayer().getDisplayName() + " &arolled a " + rolledNumber));
                     }
                 }
-                player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&aVindex&2Craft &7Roll&8] &2" +player.getPlayer().getDisplayName() + " &arolled a " + rolledNumber));
+                player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&2Vindex&aCraft &7Roll&8] &2" +player.getPlayer().getDisplayName() + " &arolled a " + rolledNumber));
             } else {
                 this.getLogger().info("Command must be ran by a player!");
             }
